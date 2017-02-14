@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class Geeter {
+public class Greeter {
 	public static void main(String[] args) {
 		String name=JOptionPane.showInputDialog("What is your name?");
 		System.out.println("Yo "+name);

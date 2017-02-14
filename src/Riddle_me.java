@@ -7,7 +7,7 @@ public class Riddle_me {
 		// 1. Make a variable to hold the score
 
 		// 3. Ask the user a riddle. Here are some ideas: bit.ly/some-riddles
-		String henry = JOptionPane.showInputDialog("Yo moms so ugly,");
+		String henry = JOptionPane.showInputDialog("Yo moms so ugly");
 		// 4. If they got the answer right, pop up "correct!" and increase the
 		// score by one
 		if (henry.equals("she died")) {
@@ -20,8 +20,19 @@ public class Riddle_me {
 
 		}
 		// 6. Add some more riddles
+		String riddle = JOptionPane.showInputDialog("What has a head and a tail, but no body?");
+		
+		if (riddle.equals("a quarter")) {
+			JOptionPane.showMessageDialog(null, "your right");
+			
+			
+		
+			}		
 
-		// 2. Make a pop up to show the score.
-
+		else {
+			JOptionPane.showMessageDialog(null, "you've done goofed again");
+	}
 	}
 }
+//2. Make a pop up to show the score.
+
